@@ -97,6 +97,11 @@
 					39831BDB1CD5FB7000185350 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 44ZU98FAPB;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -287,6 +292,7 @@
 				39831BF01CD5FB7000185350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
